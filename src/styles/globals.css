@@ -1,0 +1,42 @@
+body {
+  background-color: #11141C;
+}
+
+* { 
+  margin: 0;
+  padding: 0;
+}
+
+html, body, body > div:first-child, div#next, div#next > div, #root, .App, main {
+  height: 100%;
+}
+
+@media (max-width: 1360px) {
+  html {
+      font-size: 93.75%;
+  }
+}
+
+@media (max-width: 1280px) {
+  html {
+      font-size: 75%;
+  }
+}
+
+@media (max-width: 1050px) {
+  html {
+      font-size: 65%;
+  }
+}
+
+@media (max-width: 435px) {
+  html {
+      font-size: 50%;
+  }
+}
+
+@media (max-width: 320px) {
+  html {
+      font-size: 40%;
+  }
+}
