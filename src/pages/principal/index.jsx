@@ -6,7 +6,7 @@ export default function PagePrincipal() {
             <head>
                 <title>CAMPOOL</title>  
             </head>
-            <div classname={styles.dashboard}>
+            <div className={styles.dashboard}>
                 <ul>
                     <li className={styles.list} >
                         <a href="">RANKING MVP</a>
