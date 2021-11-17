@@ -1,5 +1,6 @@
 body {
   background-color: #11141C;
+  overflow: hidden;
 }
 
 * { 
@@ -9,6 +10,7 @@ body {
 
 html, body, body > div:first-child, div#next, div#next > div, #root, .App, main {
   height: 100%;
+  width: 100%;
 }
 
 @media (max-width: 1360px) {
