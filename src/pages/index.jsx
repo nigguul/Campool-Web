@@ -63,7 +63,7 @@ export default function Home() {
     useEffect(() => {
         effect?.onUpdate = (p) => {
             setParticles([...p]);
-        };
+        }
 
         return () => {
             effect?.onUpdate = undefined;
