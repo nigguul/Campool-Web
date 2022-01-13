@@ -61,12 +61,14 @@ export default function Home() {
     let effectBox = useRef();
 
     useEffect(() => {
-        effect?.onUpdate = (p) => {
+        if (effect == undefined) return;
+        
+        effect.onUpdate = (p) => {
             setParticles([...p]);
-        };
+        }
 
         return () => {
-            effect?.onUpdate = undefined;
+            effect.onUpdate = undefined;
         }
     }, [effect]);
 
