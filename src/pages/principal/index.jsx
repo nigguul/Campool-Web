@@ -28,6 +28,12 @@ export default function PagePrincipal() {
                     <img className={styles.exitImg} src="exit.svg" alt="sair" />
                 </div>
             </header>
+
+            <div>
+                <div className={styles.boxCamps}>
+                    <h1>CAMPEONATOS</h1>
+                </div>
+            </div>
         </>
     )
 }

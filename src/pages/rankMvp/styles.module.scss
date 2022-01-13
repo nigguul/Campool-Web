@@ -1,0 +1,38 @@
+.content {
+    flex-direction: column;
+    display: flex;
+
+    .titulo {
+        color: #ffff;
+        font-size: 3rem;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        top: 10rem;
+    }
+
+    .boxPrinc {
+        border-radius: 0.2rem;
+        background-color: #666;
+        width: 35rem;
+        height: 40rem;
+        flex-direction: column;
+        display: flex;
+        justify-items: center;
+        align-content: center;
+
+        .boxOver {
+            background-color: #555;
+            width: 34rem;
+            height: 39rem;
+            border-radius: 0.2rem;
+            display: flex;
+            align-self: center;
+        }
+
+        .infoBox {
+
+        }
+    }
+}
