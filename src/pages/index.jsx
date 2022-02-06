@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react"
 import styles from "../styles/Home.module.scss"
+import Link from 'next/link'
 
 class Particles {
     #particles;
@@ -110,10 +111,12 @@ export default function Home() {
                     <h1>CAMPOOL</h1>
                     <span className={styles.spacer}></span>
                     <h4>Libere sua energia em nosso campeonato</h4>
-                    <button className={styles.login} href="" target="_blank">
-                        <span>Portal</span>
-                        <img src="imgLogin.svg" alt=""/>
-                    </button>
+                    <Link href="/principal/" passHref>
+                        <button className={styles.login} target="_blank">
+                            <span>Portal</span>
+                            <img src="imgLogin.svg" alt=""/>
+                        </button>
+                    </Link>
                 </div>
             </div>
         </div>

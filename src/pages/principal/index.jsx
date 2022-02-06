@@ -16,10 +16,16 @@ export default function PagePrincipal() {
                 </div>
 
                 <div className={styles.infos}>
-                    <img src="iconRank.svg" alt="iconrank" />
-                    <h2>RANKING MVP</h2>
-                    <img className={styles.imgRankTeam} src="iconRankTeam.svg" alt="iconrankteam" />
-                    <h2>RANKING TIMES</h2>
+                    <div className={styles.infoMVP}>
+                        <img src="iconRank.svg" alt="iconrank" />
+                        <span>RANKING MVP</span>
+                    </div>
+
+                    <div className={styles.infoTIMES}>
+                        <img src="iconRankTeam.svg" alt="iconteam" />
+                        <span>RANKING TIMES</span>
+                    </div>
+
                     <h2>SCRIMS</h2>
                     <h2>FREE AGENTS</h2>
                 </div>
