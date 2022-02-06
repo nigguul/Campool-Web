@@ -2,11 +2,11 @@
   "name": "campool-web",
   "private": true,
   "scripts": {
-    "dev": "next dev -p $PORT",
-    "build": "next build",
-    "start": "next start -p $PORT",
-    "lint": "next lint"
-  },
+    "dev": "node_modules/next/dist/bin/next dev -p $PORT",
+    "build": "node_modules/next/dist/bin/next build",
+    "start": "node_modules/next/dist/bin/next start -p $PORT",
+    "lint": "node_modules/next/dist/bin/next lint"
+  }, 
   "dependencies": {
     "next": "12.0.2",
     "react": "17.0.2",
